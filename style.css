@@ -1,5 +1,6 @@
 body {
-    background-color: #ffffff;
+    background-color: bisque;
+    width: 100%;
 }
 
 .header__body-menu-list-item>a {
@@ -39,25 +40,29 @@ body {
     height: 84px;
     align-content: center;
 }
-.header__body-menu-list>li>a {
+.header__body-menu-list-item>a {
     text-decoration: none;
     font-size: 16pt;
     font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
-.header__body-menu-list>li>:hover {
+.header__body-menu-list-item>a:hover {
     font-size: 18pt;
     color: orange;
 }
 
 
 .main {
-    background-color: bisque;
     padding: 14px;
-}
-.main>.container {
-    width: 1440px;
 }
 .text {
     line-height: 35px;
     font-size: 14pt;
+}
+.image {
+    background-image: url("https://histrf.ru/images/biographies/19/CGGLrTKz3mFICM0umNHTwTwwGdmhqQYcHVIEGbYh.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
 }
